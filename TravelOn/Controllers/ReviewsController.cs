@@ -49,7 +49,7 @@ namespace TravelOn.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create([Bind(Include = "ID,Title,Content,ImagePath,CategoryID,RateID")] Review review)
+        public ActionResult Create([Bind(Include = "ID,Title,Published,Content,ImagePath,CategoryID,RateID")] Review review)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +85,7 @@ namespace TravelOn.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Edit([Bind(Include = "ID,Title,Content,ImagePath,CategoryID,RateID")] Review review)
+        public ActionResult Edit([Bind(Include = "ID,Title,Published,Content,ImagePath,CategoryID,RateID")] Review review)
         {
             if (ModelState.IsValid)
             {

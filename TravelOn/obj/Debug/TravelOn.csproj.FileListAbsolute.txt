@@ -185,6 +185,9 @@ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\bin\Sy
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\bin\System.Web.WebPages.Razor.xml
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.csprojResolveAssemblyReference.cache
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.init.resources
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddedPublished.resources
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddedDateOBJ.resources
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.csproj.GenerateResource.Cache
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.dll
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.pdb
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddDates.resources

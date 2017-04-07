@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Review List</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -15,10 +15,13 @@
             @Html.DisplayNameFor(model => model.Category.Name)
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Rate.Rating)
+            @Html.DisplayNameFor(model => model.Rate)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Published)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.Content)
@@ -39,6 +42,9 @@
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Published)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Content)

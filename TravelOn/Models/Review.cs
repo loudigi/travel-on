@@ -6,13 +6,20 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
+
 namespace TravelOn.Models
 {
     public class Review
     {
         [Key]
         public int ID { get; set; }
+
+        [Required(ErrorMessage = "Enter a Title.")]
         public string Title { get; set; }
+
+        [Required(ErrorMessage = "Enter a Publish Date.")]
+        [DataType(DataType.Date)]
+        public DateTime Published { get; set; }
 
         [DataType(DataType.MultilineText)]
         public string Content { get; set; }

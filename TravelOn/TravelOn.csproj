@@ -166,6 +166,18 @@
     <Compile Include="Migrations\201704062303329_init.Designer.cs">
       <DependentUpon>201704062303329_init.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704070355484_AddedPublished.cs" />
+    <Compile Include="Migrations\201704070355484_AddedPublished.Designer.cs">
+      <DependentUpon>201704070355484_AddedPublished.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704070415273_AddedDateOBJ.cs" />
+    <Compile Include="Migrations\201704070415273_AddedDateOBJ.Designer.cs">
+      <DependentUpon>201704070415273_AddedDateOBJ.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704070433286_AddDates.cs" />
+    <Compile Include="Migrations\201704070433286_AddDates.Designer.cs">
+      <DependentUpon>201704070433286_AddDates.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Rate.cs" />
@@ -253,6 +265,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201704062303329_init.resx">
       <DependentUpon>201704062303329_init.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704070355484_AddedPublished.resx">
+      <DependentUpon>201704070355484_AddedPublished.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704070415273_AddedDateOBJ.resx">
+      <DependentUpon>201704070415273_AddedDateOBJ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704070433286_AddDates.resx">
+      <DependentUpon>201704070433286_AddDates.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
