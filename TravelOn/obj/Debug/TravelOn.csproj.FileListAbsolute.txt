@@ -191,3 +191,5 @@ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\De
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.dll
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.pdb
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddDates.resources
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddedSeed.resources
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.IncludeImagePaths.resources

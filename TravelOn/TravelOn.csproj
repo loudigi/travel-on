@@ -178,6 +178,14 @@
     <Compile Include="Migrations\201704070433286_AddDates.Designer.cs">
       <DependentUpon>201704070433286_AddDates.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201704070544393_AddedSeed.cs" />
+    <Compile Include="Migrations\201704070544393_AddedSeed.Designer.cs">
+      <DependentUpon>201704070544393_AddedSeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201704070607231_IncludeImagePaths.cs" />
+    <Compile Include="Migrations\201704070607231_IncludeImagePaths.Designer.cs">
+      <DependentUpon>201704070607231_IncludeImagePaths.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Rate.cs" />
@@ -274,6 +282,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201704070433286_AddDates.resx">
       <DependentUpon>201704070433286_AddDates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704070544393_AddedSeed.resx">
+      <DependentUpon>201704070544393_AddedSeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201704070607231_IncludeImagePaths.resx">
+      <DependentUpon>201704070607231_IncludeImagePaths.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
