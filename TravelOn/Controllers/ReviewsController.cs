@@ -35,7 +35,12 @@ namespace TravelOn.Controllers
             }
             return View(review);
         }
-
+        // GET: Reviews/Contents
+        public ActionResult Contents()
+        {
+            var reviews = db.Reviews.Include(r => r.Category).Include(r => r.Rate);
+            return View(reviews.ToList());
+        }
         // GET: Reviews/Create
         public ActionResult Create()
         {
@@ -123,6 +128,7 @@ namespace TravelOn.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+
 
         protected override void Dispose(bool disposing)
         {

@@ -183,7 +183,6 @@ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\bin\Sy
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\bin\System.Web.WebPages.xml
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\bin\System.Web.WebPages.Razor.xml
-C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.csprojResolveAssemblyReference.cache
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.init.resources
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddedPublished.resources
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddedDateOBJ.resources
@@ -193,3 +192,5 @@ C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\De
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddDates.resources
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.AddedSeed.resources
 C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.IncludeImagePaths.resources
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.Migrations.NewPageContents.resources
+C:\Users\Loudigi\Documents\Visual Studio 2015\Projects\travel-on\TravelOn\obj\Debug\TravelOn.csprojResolveAssemblyReference.cache

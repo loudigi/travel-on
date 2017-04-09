@@ -22,3 +22,174 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-brand {
+    padding: 0px;
+}
+/*Styles for homepage -Contents-*/
+.featureCol {
+    padding: 0px;
+}
+
+.featureBG {
+    margin: 0px;
+    width: auto;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    border: 1px solid #cccccc;
+}
+
+
+.infoWrap {
+    width: 284px;
+    height: 70px;
+    margin: auto;
+    padding: 0px;
+    margin-top: 154px;
+}
+
+.subColIconBox {
+    width: 284px;
+    height: 90px;
+    float: left;
+    display: inline-block;
+    text-align: center;
+    background-color: rgba(85,85,85,0.7);
+    padding: 1px 10px 4px 10px;
+    color: #ffffff;
+    margin: auto;
+}
+
+.starRate {
+    position: relative;
+    bottom: 10px;
+    float: left;
+    left: 0px;
+    padding: 8px;
+    display: inline-block;
+    background-color: #4eb2a0;
+    color: #ffffff;
+    margin: 2px 0px 0px 0px;
+    height: 34px;
+    width: 157px;
+}
+
+.btn {
+    border-radius: 0px;
+}
+
+.featureBG .btn-default {
+    border-color: #74c354;
+    background-color: #93c54b;
+    float: right;
+    position: relative;
+    bottom: 10px;
+    margin: 2px 0px 0px 0px;
+    height: 34px;
+    width: 126px;
+    padding: 8px 2px 0px 2px;
+    display: inline-block;
+    color: #ffffff;
+}
+
+    .featureBG .btn-default:link {
+        background-color: #abd075;
+        color: #ffffff;
+    }
+
+    .featureBG .btn-default a {
+        color: #ffffff;
+        text-decoration: none;
+    }
+
+    .featureBG .btn-default:hover {
+        background-color: #abd075;
+    }
+
+    .featureBG .btn-default:visited {
+        background-color: #abd075;
+    }
+
+.detailsBG {
+    margin: 0px;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border: 1px solid #cccccc;
+}
+
+.detailsInfo {
+    margin: auto;
+    padding: 30px;
+    height: 260px;
+    border: 1px solid #cccccc;
+    background-color: #3e3f3a;
+    color: #ffffff;
+}
+
+.detailsItems {
+    margin: auto;
+    padding: 30px;
+    height: 260px;
+    border: 1px solid #cccccc;
+    background-color: #4eb2a0;
+}
+
+    .detailsItems h4 {
+        margin: 0px;
+    }
+
+.btn-default {
+    width: 110px;
+}
+
+    .btn-default:hover {
+        background-color: #5c5c5c;
+        color: inherit;
+    }
+
+.btn-default a{
+ color:inherit;
+ text-decoration:none;
+}
+}
+
+.detailsItems :link {
+    text-decoration: none;
+}
+
+/*Review list Index styles*/
+
+.itemsRow {
+    margin-bottom: 20px;
+    margin-top:20px;
+    border-bottom: solid thin #abd075;
+    padding-bottom: 10px;
+}
+
+    .itemsRow h4 {
+        margin: 0px;
+        line-height: none;
+    }
+
+    .itemsRow p {
+        margin: 0px;
+    }
+.itemsRow :link{
+    text-decoration: none;
+}
+.itemImage {
+    margin: auto;
+}
+
+
+
+.rList :link {
+    text-decoration: none;
+}
+
+
+

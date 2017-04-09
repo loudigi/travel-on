@@ -16,10 +16,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("TravelOn", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                <a class="navbar-brand" href="#"><img alt="TravelOn" height="55" src="~/Images/to_logo.png"></a>
+               
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
+
                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
                     <li>@Html.ActionLink("About", "About", "Home")</li>
                     <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
@@ -29,7 +31,7 @@
                             <li>@Html.ActionLink("All Reviews", "Index", "Reviews")</li>
                             <li>@Html.ActionLink("New Review", "Create", "Reviews")</li>
                             <li role="separator" class="divider"></li>
-                            <li>@Html.ActionLink("Categories", "Index", "Categories")</li> 
+                            <li>@Html.ActionLink("Categories", "Index", "Categories")</li>
                             <li>@Html.ActionLink("New Category", "Create", "Categories")</li>
                             <li role="separator" class="divider"></li>
                             <li>@Html.ActionLink("Rating", "Index", "Rates")</li>
@@ -44,7 +46,7 @@
         @RenderBody()
         <hr />
         <footer>
-            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+            <p>&copy; @DateTime.Now.Year - TravelOn :: Your number one travel review site</p>
         </footer>
     </div>
 

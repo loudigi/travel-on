@@ -24,7 +24,7 @@ namespace TravelOn
                       "~/Scripts/respond.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
+                      "~/Content/custom-bootstrap.css",
                       "~/Content/site.css"));
         }
     }

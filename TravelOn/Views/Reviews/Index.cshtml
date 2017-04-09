@@ -7,57 +7,39 @@
 <h2>Review List</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
-</p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.Category.Name)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Rate)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Title)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Published)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Content)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.ImagePath)
-        </th>
-        <th></th>
-    </tr>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.Category.Name)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Rate.Rating)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Title)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Published)
-        </td>
-        <td>
+    <span class="rList btn btn-default"> @Html.ActionLink("Create New", "Create")</span>
+</p>
+
+@foreach (var item in Model)
+{
+    <div class="row itemsRow">
+        <div class="itemDetails col-md-3">
+            <p>
+                <h4>@Html.DisplayFor(modelItem => item.Title)</h4><br />
+                @Html.DisplayNameFor(model => model.Rate.Rating): @myHelpers.StarRater(item.Rate.Rating)<br />
+                @Html.DisplayNameFor(model => model.Category.Name): @Html.DisplayFor(modelItem => item.Category.Name)<br />
+                @Html.DisplayNameFor(model => model.Published): @Html.DisplayFor(modelItem => item.Published) <br />
+
+                @Html.ActionLink("Edit", "Edit", new { id = item.ID }) |
+                @Html.ActionLink("Details", "Details", new { id = item.ID }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.ID })
+
+            </p>
+
+        </div>
+
+        <div class="itemContent col-md-6">
+
             @Html.DisplayFor(modelItem => item.Content)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.ImagePath)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
-        </td>
-    </tr>
+        </div>
+
+        <div class="itemImage col-md-3">
+            <img width="180" src="@Html.DisplayFor(modelItem => item.ImagePath)" />
+        </div>
+
+    </div>
 }
 
-</table>
+
+

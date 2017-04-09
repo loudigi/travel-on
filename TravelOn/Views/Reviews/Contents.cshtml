@@ -1,0 +1,92 @@
+﻿@model IEnumerable<TravelOn.Models.Review>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Contents";
+}
+
+
+<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+
+
+<div class="row">
+    @foreach (var item in Model)
+
+    {
+
+        <div class="featureCol col-xs-12 col-sm-6 col-md-4 col-lg-4">
+            <div class="featureBG" style="background-image:url(@Html.DisplayFor(modelItem => item.ImagePath))">
+
+                <div class="infoWrap">
+                    <div class="subColIconBox">
+
+                        <h4>@Html.DisplayFor(modelItem => item.Title)</h4>
+
+                        <p>
+                            @Html.DisplayFor(modelItem => item.Category.Name)<br />
+                            Published @Html.DisplayFor(modelItem => item.Published)
+                        </p>
+
+                    </div>
+
+                    <div class="starRate text-center">
+                        <p>
+                            @StarRater(item.Rate.Rating)
+
+
+                        </p>
+                    </div>
+                    <p><span class="btn btn-default"> @Html.ActionLink("See More", "Details", new { id = item.ID }) &#8594;</span></p>
+
+                </div>
+
+            </div>
+
+
+        </div>
+    }
+
+</div>
+
+@helper StarRater(int stars)
+{
+
+switch (stars)
+{
+    case 1:
+            <span class="glyphicon glyphicon-star"></span>
+        break;
+    case 2:
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+        break;
+
+    case 3:
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+        break;
+
+    case 4:
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+        break;
+    case 5:
+            <span class="glyphicon glyphicon-star"></span>
+            <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+        break;
+    default:
+            <text> Not Rated </text>
+        break;
+}
+}
