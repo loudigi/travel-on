@@ -72,7 +72,7 @@ new Rate() { ID = 24, Rating = 5 }
                     Title = "Steps to Heaven",
                     Published = DateTime.Parse(DateTime.Today.ToString()),
                     CategoryID = 20,
-                    Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.",
+                    Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.Curabitur aliquet quam id dui posuere blandit.",
                     RateID = 21,
                     ImagePath = "https://media-cdn.tripadvisor.com/media/photo-o/0e/99/92/d4/front-of-the-basilica.jpg"
                 },
@@ -85,6 +85,36 @@ new Rate() { ID = 24, Rating = 5 }
                     Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.",
                     RateID = 24,
                     ImagePath = "https://media-cdn.tripadvisor.com/media/photo-o/05/6b/c7/ee/musee-du-louvre.jpg"
+                },
+                new Review()
+                {
+                    ID = 23,
+                    Title = "Central Sack",
+                    Published = DateTime.Parse(DateTime.Today.ToString()),
+                    CategoryID = 23,
+                    Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.Curabitur aliquet quam id dui posuere blandit.",
+                    RateID = 22,
+                    ImagePath = "https://t-ec.bstatic.com/images/hotel/max1024x768/410/41074377.jpg"
+                },
+                new Review()
+                {
+                    ID = 25,
+                    Title = "Asakusa Din",
+                    Published = DateTime.Parse(DateTime.Today.ToString()),
+                    CategoryID = 20,
+                    Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.Curabitur aliquet quam id dui posuere blandit.",
+                    RateID = 24,
+                    ImagePath = "https://s-ec.bstatic.com/images/hotel/max1024x768/376/37644077.jpg"
+                },
+                new Review()
+                {
+                    ID = 26,
+                    Title = "Tokyo Robot Cabaret",
+                    Published = DateTime.Parse(DateTime.Today.ToString()),
+                    CategoryID = 20,
+                    Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.Curabitur aliquet quam id dui posuere blandit.",
+                    RateID = 24,
+                    ImagePath = "https://c1.staticflickr.com/8/7369/12974085683_525428d239_b.jpg"
                 }
                 );
 

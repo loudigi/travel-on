@@ -5,11 +5,17 @@
     ViewBag.Title = "Contents";
 }
 
-
-<div class="jumbotron">
-    <h1>ASP.NET</h1>
-    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+<div class="row">
+    <h2>Trending Reviews</h2>
+    <p>
+        Sed porttitor lectus nibh. Nulla quis lorem ut libero malesuada feugiat. 
+        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. 
+        Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+        Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. 
+    </p>
+    <p>
+        <span class="rList btn btn-default"> @Html.ActionLink("Add your own", "Create")</span>
+    </p>
 </div>
 
 
@@ -36,12 +42,10 @@
 
                     <div class="starRate text-center">
                         <p>
-                            @StarRater(item.Rate.Rating)
-
-
+                            @myHelpers.StarRater(item.Rate.Rating)
                         </p>
                     </div>
-                    <p><span class="btn btn-default"> @Html.ActionLink("See More", "Details", new { id = item.ID }) &#8594;</span></p>
+                    <p><span class="btn btn-default"> @Html.ActionLink("More Info", "Details", new { id = item.ID }) &#8594;</span></p>
 
                 </div>
 
@@ -53,40 +57,3 @@
 
 </div>
 
-@helper StarRater(int stars)
-{
-
-switch (stars)
-{
-    case 1:
-            <span class="glyphicon glyphicon-star"></span>
-        break;
-    case 2:
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-        break;
-
-    case 3:
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-        break;
-
-    case 4:
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-        break;
-    case 5:
-            <span class="glyphicon glyphicon-star"></span>
-            <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star"></span>
-        break;
-    default:
-            <text> Not Rated </text>
-        break;
-}
-}

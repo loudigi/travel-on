@@ -151,10 +151,11 @@ textarea {
         color: inherit;
     }
 
-.btn-default a{
- color:inherit;
- text-decoration:none;
-}
+    .btn-default a {
+        color: inherit;
+        text-decoration: none;
+    }
+
 }
 
 .detailsItems :link {
@@ -165,7 +166,7 @@ textarea {
 
 .itemsRow {
     margin-bottom: 20px;
-    margin-top:20px;
+    margin-top: 20px;
     border-bottom: solid thin #abd075;
     padding-bottom: 10px;
 }
@@ -178,9 +179,11 @@ textarea {
     .itemsRow p {
         margin: 0px;
     }
-.itemsRow :link{
-    text-decoration: none;
-}
+
+    .itemsRow :link {
+        text-decoration: none;
+    }
+
 .itemImage {
     margin: auto;
 }
@@ -191,5 +194,23 @@ textarea {
     text-decoration: none;
 }
 
+.carousel-inner .item{
+    height:420px;
+    background-position:left;
+    background-size:cover;
+}
 
+.intro {
+    background-color:#000000;
+    padding:25px;
+    color:#ffffff;
+   
+}
+.clearSpace{
+    margin-top:0px;
+    
+}
 
+.intro h1{
+    margin:0px;
+}

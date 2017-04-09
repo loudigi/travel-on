@@ -13,8 +13,8 @@ namespace TravelOn.Controllers
 
         public ActionResult Index()
         {
-           
-            return RedirectToAction("Contents", "Reviews");
+            return View();
+            // return RedirectToAction("Contents", "Reviews");
         }
 
         public ActionResult About()
