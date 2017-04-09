@@ -19,14 +19,14 @@ namespace TravelOn.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "TravelOn is the #1 travel review site";
 
             return View();
         }
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Connect with us!";
 
             return View();
         }

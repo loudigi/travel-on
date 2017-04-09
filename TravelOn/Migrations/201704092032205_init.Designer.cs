@@ -7,13 +7,13 @@ namespace TravelOn.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class AddedDateOBJ : IMigrationMetadata
+    public sealed partial class init : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(AddedDateOBJ));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(init));
         
         string IMigrationMetadata.Id
         {
-            get { return "201704070415273_AddedDateOBJ"; }
+            get { return "201704092032205_init"; }
         }
         
         string IMigrationMetadata.Source

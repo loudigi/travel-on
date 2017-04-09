@@ -30,7 +30,8 @@ namespace TravelOn.Migrations
                 c => new
                     {
                         ID = c.Int(nullable: false, identity: true),
-                        Title = c.String(),
+                        Title = c.String(nullable: false),
+                        Published = c.DateTime(nullable: false),
                         Content = c.String(),
                         ImagePath = c.String(),
                         CategoryID = c.Int(nullable: false),

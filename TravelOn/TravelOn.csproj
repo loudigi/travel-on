@@ -162,33 +162,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201704062303329_init.cs" />
-    <Compile Include="Migrations\201704062303329_init.Designer.cs">
-      <DependentUpon>201704062303329_init.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704070355484_AddedPublished.cs" />
-    <Compile Include="Migrations\201704070355484_AddedPublished.Designer.cs">
-      <DependentUpon>201704070355484_AddedPublished.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704070415273_AddedDateOBJ.cs" />
-    <Compile Include="Migrations\201704070415273_AddedDateOBJ.Designer.cs">
-      <DependentUpon>201704070415273_AddedDateOBJ.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704070433286_AddDates.cs" />
-    <Compile Include="Migrations\201704070433286_AddDates.Designer.cs">
-      <DependentUpon>201704070433286_AddDates.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704070544393_AddedSeed.cs" />
-    <Compile Include="Migrations\201704070544393_AddedSeed.Designer.cs">
-      <DependentUpon>201704070544393_AddedSeed.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704070607231_IncludeImagePaths.cs" />
-    <Compile Include="Migrations\201704070607231_IncludeImagePaths.Designer.cs">
-      <DependentUpon>201704070607231_IncludeImagePaths.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201704081843407_NewPageContents.cs" />
-    <Compile Include="Migrations\201704081843407_NewPageContents.Designer.cs">
-      <DependentUpon>201704081843407_NewPageContents.cs</DependentUpon>
+    <Compile Include="Migrations\201704092032205_init.cs" />
+    <Compile Include="Migrations\201704092032205_init.Designer.cs">
+      <DependentUpon>201704092032205_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Category.cs" />
@@ -279,26 +255,8 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201704062303329_init.resx">
-      <DependentUpon>201704062303329_init.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704070355484_AddedPublished.resx">
-      <DependentUpon>201704070355484_AddedPublished.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704070415273_AddedDateOBJ.resx">
-      <DependentUpon>201704070415273_AddedDateOBJ.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704070433286_AddDates.resx">
-      <DependentUpon>201704070433286_AddDates.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704070544393_AddedSeed.resx">
-      <DependentUpon>201704070544393_AddedSeed.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704070607231_IncludeImagePaths.resx">
-      <DependentUpon>201704070607231_IncludeImagePaths.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201704081843407_NewPageContents.resx">
-      <DependentUpon>201704081843407_NewPageContents.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201704092032205_init.resx">
+      <DependentUpon>201704092032205_init.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
