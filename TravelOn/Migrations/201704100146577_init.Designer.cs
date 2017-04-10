@@ -13,7 +13,7 @@ namespace TravelOn.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201704092032205_init"; }
+            get { return "201704100146577_init"; }
         }
         
         string IMigrationMetadata.Source

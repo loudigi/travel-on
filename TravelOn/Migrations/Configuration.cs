@@ -15,19 +15,6 @@ namespace TravelOn.Migrations
 
         protected override void Seed(TravelOn.Models.TravelOnContext context)
         {
-            //  This method will be called after migrating to the latest version.
-
-            //  You can use the DbSet<T>.AddOrUpdate() helper extension method 
-            //  to avoid creating duplicate seed data. E.g.
-            //
-            //    context.People.AddOrUpdate(
-            //      p => p.FullName,
-            //      new Person { FullName = "Andrew Peters" },
-            //      new Person { FullName = "Brice Lambson" },
-            //      new Person { FullName = "Rowan Miller" }
-            //    );
-            //
-
             context.Categories.AddOrUpdate(x => x.ID,
             new Category() { ID = 1, Name = "Attractions" },
             new Category() { ID = 2, Name = "Beaches" },
@@ -128,18 +115,16 @@ namespace TravelOn.Migrations
                     RateID = 5,
                     ImagePath = "https://c1.staticflickr.com/8/7369/12974085683_525428d239_b.jpg"
                 },
-                                new Review()
-                {
-                    ID = 28,
-                    Title = "Mama Meats",
-                    Published = DateTime.Parse(DateTime.Today.ToString()),
-                    CategoryID = 1,
-                    Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.Curabitur aliquet quam id dui posuere blandit.",
-                    RateID = 3,
-                    ImagePath = "https://pix6.agoda.net/hotelImages/197/1979625/1979625_17020218140050738359.jpg?s=1024x768"
-                                }
-                );
-
+                 new Review()
+                 {
+                     ID = 28,
+                     Title = "Mama Meats",
+                     Published = DateTime.Parse(DateTime.Today.ToString()),
+                     CategoryID = 1,
+                     Content = "Proin eget tortor risus. Curabitur aliquet quam id dui posuere blandit. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras ultricies ligula sed magna dictum porta.Curabitur aliquet quam id dui posuere blandit.",
+                     RateID = 3,
+                     ImagePath = "https://pix6.agoda.net/hotelImages/197/1979625/1979625_17020218140050738359.jpg?s=1024x768"
+                 } );
         }
     }
 }
